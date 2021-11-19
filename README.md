@@ -11,7 +11,7 @@ detail see https://github.com/toricls/aws-amplify-sns-workshop-in-vscode
 
 - Clone this repository.
 - Base Directory Run `code .`
-- Run `cd amazon-location-service-with-soracom`
+- Run `cd amazon-location-service-geofence-system`
 - Run `cdk deploy`
 - GeoFence put Data And Systems Mamanger Paramater Store put Data see cli Command.
 
