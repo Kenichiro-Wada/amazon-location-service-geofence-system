@@ -1,11 +1,25 @@
 # amazon-location-service-with-soracom
 
-amazon location service with soracom
+amazon location service with soracom.
+
 code name 'Necklace of Artemis System'
 
-# files
+use Visual Studio Code With Remote Containers extension
+Remote Containers configuration Based https://github.com/toricls/aws-amplify-sns-workshop-in-vscode
+detail see https://github.com/toricls/aws-amplify-sns-workshop-in-vscode
+
+# Usage
+
+- Clone this repository.
+- Base Directory Run `code .`
+- Run `cd amazon-location-service-with-soracom`
+- Run `cdk deploy`
+- GeoFence put Data And Systems Mamanger Paramater Store put Data see cli Command.
+
+# Structure
 
 - .devcontainer : VS Code Remote Container Configration File.
+  -
 - amazon-location-service-with-soracom
   - cli-json : aws cli input json files
     - cli-json/sample.json, sample-odaiba.json : Amazon Location Service GeoFencd Data files.
@@ -17,13 +31,6 @@ code name 'Necklace of Artemis System'
   - lib : AWS CDK Stack files
     - lib/amazon-location-service-with-soracom-stack.ts : AWS CDK Stack File.
 
-# use
-
-- Base Directory Run `code .`
-- Run `cd amazon-location-service-with-soracom`
-- Run `cdk deploy`
-- GeoFence put Data And Systems Mamanger Paramater Store put Data see cli Command.
-
 # cli Command
 
 ## GeoFence put Command
@@ -33,3 +40,7 @@ aws location put-geofence --cli-input-json file:///workspaces/amazon-location-se
 ## Systems Mamanger Paramater Store put Command
 
 aws ssm put-parameter --cli-input-json file:///workspaces/amazon-location-service-with-soracom/cli-json/ssm.json
+
+# Author
+
+Kenichiro Wada
