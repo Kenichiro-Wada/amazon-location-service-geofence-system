@@ -1,0 +1,9 @@
+{
+    "Name": "LINE_NOTIFY_TOKEN",
+    "Description": "LINE Notify Token",
+    "Value": "[Your Line Notify Token]",
+    "Type": "SecureString",
+    "Overwrite": true,
+    "Tier": "Advanced",
+    "DataType": "text"
+}

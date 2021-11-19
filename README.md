@@ -1,7 +1,6 @@
-# amazon-location-service-with-soracom
+# amazon-location-service-geofence-system
 
-amazon location service with soracom.
-
+amazon location service geofence System.
 code name 'Necklace of Artemis System'
 
 use Visual Studio Code With Remote Containers extension
@@ -19,8 +18,7 @@ detail see https://github.com/toricls/aws-amplify-sns-workshop-in-vscode
 # Structure
 
 - .devcontainer : VS Code Remote Container Configration File.
-  -
-- amazon-location-service-with-soracom
+- amazon-location-service-geofence-system
   - cli-json : aws cli input json files
     - cli-json/sample.json, sample-odaiba.json : Amazon Location Service GeoFencd Data files.
     - cli-json/ssm.json : Systems Mamanger Paramater Store Configration file for Line Notify Token. Set Your Line Notify Token.
