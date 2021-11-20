@@ -1,7 +1,7 @@
 # amazon-location-service-geofence-system
 
 amazon location service geofence System.
-code name 'Necklace of Artemis System'
+code name 'Necklace of Artemis System' respect by `Legend of the Galactic Heroes`
 
 use Visual Studio Code With Remote Containers extension
 Remote Containers configuration Based https://github.com/toricls/aws-amplify-sns-workshop-in-vscode

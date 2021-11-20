@@ -18,7 +18,7 @@ export class AmazonLocationServiceWithSoracomStack extends cdk.Stack {
       mapName: 'necklaceOfArtemisSystemMap',
       pricingPlan: 'RequestBasedUsage',
       description:
-        'Map for Necklace of Artemis System for JAWS PANKRATION 2021',
+        'Map for Necklace of Artemis System',
       configuration: {
         style: 'VectorEsriStreets',
       },
@@ -30,7 +30,7 @@ export class AmazonLocationServiceWithSoracomStack extends cdk.Stack {
         collectionName: 'necklaceOfArtemisSystemGeoFence',
         pricingPlan: 'RequestBasedUsage',
         description:
-          'GeoFence for Necklace of Artemis System for JAWS PANKRATION 2021',
+          'GeoFence for Necklace of Artemis System',
       }
     );
 
@@ -41,7 +41,7 @@ export class AmazonLocationServiceWithSoracomStack extends cdk.Stack {
         trackerName: 'necklaceOfArtemisSystemMapTracker',
         pricingPlan: 'RequestBasedUsage',
         description:
-          'Tracker for Necklace of Artemis System for JAWS PANKRATION 2021',
+          'Tracker for Necklace of Artemis System',
       }
     );
     new geo.CfnTrackerConsumer(
