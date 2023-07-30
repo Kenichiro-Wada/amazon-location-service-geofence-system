@@ -11,14 +11,6 @@ RUN apt-get update && apt-get -y install --no-install-recommends java-common zip
   && apt-get clean -y \
   && rm -rf /var/lib/apt/lists/*
 
-# COPY ./certs/cacert.pem /etc/ssl/certs/cacert.pem
-# COPY ./certs/ca-bundle-curl.crt /etc/ssl/certs/ca-bundle-curl.crt
-# COPY ./certs/iret-CA.cer /etc/ssl/certs/iret-ca.cer
-# RUN chmod 777 /etc/ssl/certs/cacert.pem
-# RUN chmod 777 /etc/ssl/certs/ca-bundle-curl.crt
-# RUN chmod 777 /etc/ssl/certs/iret-ca.cer
-
-# ENV CURL_CA_BUNDLE=/etc/ssl/certs/cacert.pem
 ENV DEBIAN_FRONTEND=dialog
 
 WORKDIR /workspaces
